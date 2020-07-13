@@ -1,0 +1,9 @@
+{
+	"name" : "KMG theme switch",
+	"description" : "KMG theme switch",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "1.0",
+	"author": "Alzhan Nurtaza",
+	"preview": "preview.png"
+}

@@ -1,0 +1,715 @@
+* {
+    transition: background-color, color 300ms ease;
+}
+
+.nightmode .qui-toolbar.linear-background {
+    background: #212121;
+}
+
+.nightmode .qv-gridcell.zoom {
+    background: #212121;
+}
+
+.nightmode .qv-object-nav>a.border {
+    color: #a9a9a9;
+}
+
+.nightmode .qv-panel-current-selections .text-wrap span {
+    color: #e3e3e3;
+}
+
+.nightmode .qv-panel-current-selections .item.multi-active,
+.nightmode .touch-off .bright.qv-panel-current-selections .item:focus,
+.nightmode .touch-off .bright.qv-panel-current-selections .item:hover {
+    background: #454545;
+    border: none;
+}
+
+.nightmode .qv-cao {
+    background: #212121;
+}
+
+.nightmode .bright.qv-panel-current-selections li {
+    border: none;
+    box-shadow: none;
+    background: #222;
+}
+
+.nightmode .bright.qv-panel-current-selections .buttons-end.border-left,
+.nightmode .bright.qv-panel-current-selections .buttons.border-left {
+    border: none;
+}
+
+.nightmode .bright.qv-panel-current-selections .buttons-end .qv-insight-toggle-button span,
+.nightmode .bright.qv-panel-current-selections .buttons .qv-insight-toggle-button span {
+    color: #cacaca;
+}
+
+.nightmode .bright.qv-panel-current-selections .buttons-end.border-right,
+.nightmode .bright.qv-panel-current-selections .buttons.border-right {
+    border: none;
+}
+
+.nightmode .lui-button--gradient,
+.nightmode .lui-button--toolbar {
+    color: #c4c4c4;
+    background-color: #2a2a2a;
+    background-image: linear-gradient(180deg, #282828, #303030);
+    border-color: #5e5e5e;
+    transition: box-shadow .2s ease-out;
+}
+
+.nightmode .qv-panel-sheet {
+    background-color: #222;
+}
+
+.nightmode .bright.qv-panel-current-selections .wrap {
+    border: none;
+    border-bottom: 1px solid #2d2d2d;
+    background-color: #2d2d2d;
+}
+
+.nightmode .bright.qv-panel-current-selections {
+    background: #2d2d2d;
+}
+
+.nightmode .bright.qv-panel-current-selections .buttons-end .qv-insight-toggle-button .lui-icon--analyze,
+.nightmode .bright.qv-panel-current-selections .buttons .qv-insight-toggle-button .lui-icon--analyze {
+    color: #e8e8e8;
+}
+
+.nightmode .bright.qv-panel-current-selections .buttons-end .qv-subtoolbar-button,
+.nightmode .bright.qv-panel-current-selections .buttons .qv-subtoolbar-button {
+    color: #cacaca;
+    border-color: transparent;
+}
+
+.nightmode .bright.qv-panel-current-selections .qv-selections-pager {
+    border-color: #313131;
+}
+
+.nightmode .measure-title {
+    color: #cccccc;
+}
+
+.nightmode .qv-object-text-image {
+    color: #cccccc;
+}
+
+.nightmode .qv-object.qv-object-listbox .qv-object-title .lui-icon--select-alternative,
+.nightmode .qv-object.qv-object-listbox .qv-object-title .qv-object-locked,
+.nightmode .qv-object.qv-object-listbox .qv-object-title .qv-object-search {
+    color: #ccc;
+}
+
+/* setting the tables rows darker */
+.nightmode .qv-st-data-cell,
+.nightmode .qv-st-header-cell,
+.nightmode .qv-object-table .qv-object-header,
+.nightmode .qv-listbox li {
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-st-header-cell {
+    border-left: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-st-data-cell {
+    border-right: 1px solid #2c2c2c;
+    border-left: 1px solid #2c2c2c;
+}
+
+
+.nightmode .touch-off .column-width-adjuster .column-width-adjust-line {
+    background-color: #2c2c2c;
+}
+
+.nightmode .column-width-adjuster .column-width-adjust-column:hover .column-width-adjust-line,
+.nightmode .column-width-adjuster .column-width-adjust-column .column-width-adjust-line {
+    background-color: #2c2c2c;
+}
+
+/* header cell hover */
+.touch-off .nightmode .qv-st-interactive:not(.qv-st-selections-active):not(.qv-st-reordering-active) .qv-st-header:not(.qv-st-custom-header) .qv-st-header-cell-search:hover:not(:active):not(.qv-st-header-cell-search-open),
+.touch-off .nightmode .qv-st-navigatable:not(.qv-st-selections-active):not(.qv-st-reordering-active) .qv-st-header-sortable:not(.qv-st-custom-header):hover:not(:active):not(.qv-st-header-cell-search-open) {
+    background-color: #1d1d1d;
+}
+
+/* background color of table null value */
+.nightmode .qv-st-data-cell-null-value {
+    background-color: #1d1d1d;
+}
+
+
+/* start of pivotTable customization */
+.nightmode .qv-object-pivot-table .qv-object-header {
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-pt .cell {
+    border: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-pt .cell.left-meta.empty.bottom-meta,
+.qv-pt .cell.top.empty.bottom-meta {
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-pt .cell.header.top {
+    border-left: 1px solid #2c2c2c;
+    border-right: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-pt .cell.header.left {
+    border-right: 1px solid #2c2c2c;
+}
+
+.nightmode th.cell.ng-scope.header.empty.top-meta.meta {
+    border-right: 1px solid #2c2c2c;
+}
+
+.nightmode th.cell.ng-scope.header.empty.left-meta.meta {
+    border-left: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-pt .cell.header.left {
+    border-left: 1px solid #2c2c2c;
+}
+
+/* End of PivotTable Customization */
+
+.nightmode .qv-listbox li.serverAlternative {
+    background-color: #757575;
+    color: black;
+}
+
+
+/* search field that appears on smaller screens (supposedly only on this occasion) */
+.nightmode .qv-global-search .qv-global-search-input {
+    background: #212121;
+}
+
+.nightmode .qv-global-search .qv-global-search-line {
+    background: #2c2c2c;
+}
+
+/* dark search customization */
+.nightmode .qv-smartsearch-visuals-group .page .visual-item .object {
+    background: #212121;
+}
+
+.nightmode .qv-pt .cell.left-meta.empty {
+    border-right: 1px solid transparent;
+}
+
+.nightmode .qv-smartsearch-visuals-group .page .visual-item .visual-data {
+    background: #171717;
+    border-top: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-smartsearch-visuals-group .page .visual-item {
+    border: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-global-search .qv-gs-more-indicator {
+    background: #171717;
+}
+
+.nightmode .qv-global-search-result .highlighted0 {
+    color: #cacaca;
+}
+
+.nightmode .qv-smartsearch-visuals-group {
+    background: #171717;
+}
+
+.nightmode .qv-global-search-result .title-section {
+    color: #cacaca;
+    background: #171717;
+    border-top: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-global-search-result .title-section.title-selections {
+    background: #212121;
+}
+
+.nightmode .qv-global-search-result .data-matches-group {
+    background: #212121;
+}
+
+.nightmode .qv-global-search-result .group-hits .field-name {
+    color: #cacaca;
+}
+
+.nightmode .qv-global-search-result .show-me-more {
+    background-color: #212121;
+}
+
+.nightmode .qv-global-search-result .qv-global-search-result-message,
+.nightmode .qv-search-last-history {
+    background: #d9d9d9;
+}
+
+.nightmode .lui-search,
+.lui-search .lui-search__input {
+    color: #cacaca;
+    background: #333333;
+}
+
+.nightmode .qv-panel-current-selections .item.multi-active,
+.touch-off .nightmode .bright.qv-panel-current-selections .item:focus,
+.touch-off .nightmode .bright.qv-panel-current-selections .item:hover {
+    background: #212121;
+}
+
+.nightmode .qv-collapsed-listbox {
+    border: 1px solid #5d5d5d;
+}
+
+/* ------------- */
+
+/* div color that appears in certain transitions, usually on smaller screens */
+.nightmode .zoomBorder.qv-animate {
+    background-color: #171717 !important;
+    border: none;
+}
+
+/* settings in search filters */
+.nightmode .qv-listbox-scroll-area,
+.nightmode .qv-gs-scroll-container .qv-gs-scroll-area .qv-gs-listbox,
+.nightmode .qv-listbox-popover-small-device {
+    background: #212121;
+}
+
+
+.nightmode .qv-listbox-popover-small-device .qvt-visualization-title {
+    color: #cacaca;
+    background-color: #212121;
+}
+
+.nightmode .qv-listbox-search {
+    border-top: 1px solid #2c2c2c;
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-listbox-search:focus,
+.nightmode .search-focused {
+    box-shadow: none;
+}
+
+.nightmode .qv-listbox-search-message {
+    background-color: #212121;
+}
+
+.nightmode .qv-global-selections,
+.nightmode .qv-global-selections.insights-active .qv-insights-container {
+    background-color: #171717;
+}
+
+.nightmode .qv-global-selections .qv-gs-section.qv-gs-top .qv-gs-no-selections .qv-gs-no-selections-content .qv-qs-no-selections-title,
+.nightmode .qv-global-selections .qv-gs-section.qv-gs-top .qv-gs-no-selections .qv-gs-no-selections-content .qv-qs-no-selections-body,
+.nightmode .qv-selections-insights-container .qv-selections-no-insights .qv-selections-insights--p,
+.nightmode .qv-selections-insights-container .qv-selections-insights-header {
+    color: #cacaca;
+}
+
+.nightmode .qv-global-selections .show-insights-btn .show-insights--button {
+    background-color: transparent;
+    color: #cacaca;
+}
+
+.nightmode .qv-selections-insights-container .qv-selections-insights-header {
+    background: #171717;
+}
+
+/* active,focus and hover of selections and ideas buttons */
+.nightmode .bright.qv-panel-current-selections .buttons-end div.qv-subtoolbar-button:active,
+.nightmode .bright.qv-panel-current-selections .buttons-end div.qv-subtoolbar-button:focus,
+.nightmode .bright.qv-panel-current-selections .buttons-end .qv-subtoolbar-button.active,
+.nightmode .bright.qv-panel-current-selections .buttons-end .qv-subtoolbar-button.active:hover,
+.nightmode .bright.qv-panel-current-selections .buttons-end div.qv-subtoolbar-button:hover,
+.nightmode .bright.qv-panel-current-selections .buttons-end .qv-insight-toggle-button.active span:hover,
+.nightmode .qv-panel-current-selections .buttons-end .qv-insight-toggle-button.active span {
+    background: #222222;
+    color: #e4e4e4;
+}
+
+
+.nightmode .qv-cao-field-picker .field-picker .tabs{
+    background: #212121;
+    color: #cacaca;
+    border-right: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-cao-field-picker {
+    border-right: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-cao .qv-cao-intro .qv-cao-intro-content button {
+    color: #cacaca;
+}
+
+.nightmode .qv-cao-field-picker .field-picker .tab-content .fields, .nightmode .qv-cao-field-picker .field-picker .tab-content .field-item-header, .nightmode .qv-cao-field-picker .field-picker .tab-content {
+    background: #212121;
+    color: #cacaca;
+}
+
+.nightmode .qv-cao-field-picker .field-picker .tab-content .field-container .lui-list__item, .nightmode .qv-cao-field-picker .field-picker .tab-content .field-item-header.selected {
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.nightmode .lui-list .lui-list__item, .nightmode .lui-tab .lui-tab__text .lui-tab .lui-tab__text {
+    color: #cacaca;
+}
+
+.nightmode .qv-cao .qv-cao-section-result-item, .nightmode .qv-cao .qv-cao-section-result-item:hover:not(.qv-cao-section-result-item-zoomed) {
+    background: #252525;
+}
+
+.nightmode .qv-cao-search .qv-cao-search-line {
+    background: #2c2c2c;
+}
+
+.nightmode .qv-cao-search .qv-cao-search-container .qv-cao-search-input {
+    background: #212121;
+    border: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-cao-field-picker .field-picker .tab-content .field-container .lui-list__item:active {
+    background-color: #333;
+}
+
+/* graphic zoom animation inside the ideas menu */
+.nightmode .qv-cao .qv-cao-zoomed-chart .qv-cao-zoomed-anmiation-container {
+    background-color: #212121;
+}
+
+.nightmode .qv-global-selections .qv-gs-scroll-container .qv-gs-scroll-area .qv-gs-listbox {
+    border: 1px solid #2c2c2c;
+}
+
+.nightmode .qv-global-selections .qv-gs-section.qv-gs-top {
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.nightmode .qs-toolbar {
+    background-color: #222222;
+}
+
+.nightmode .qs-toolbar .lui-button {
+    color: #cacaca;
+    border: 1px solid #403f3f;
+}
+
+/* active, hover and focus of lower toolbar buttons */
+.nightmode .bright.qv-panel-current-selections .buttons-end button.qv-subtoolbar-button:active:enabled, .nightmode .bright.qv-panel-current-selections .buttons-end div.qv-subtoolbar-button:active, .nightmode .bright.qv-panel-current-selections .buttons button.qv-subtoolbar-button:active:enabled, .nightmode .bright.qv-panel-current-selections .buttons div.qv-subtoolbar-button:active {
+    color: #868686;
+}
+.nightmode .bright.qv-panel-current-selections .buttons-end button.qv-subtoolbar-button:focus:enabled, .nightmode .bright.qv-panel-current-selections .buttons-end div.qv-subtoolbar-button:focus, .nightmode .bright.qv-panel-current-selections .buttons button.qv-subtoolbar-button:focus:enabled, .nightmode .bright.qv-panel-current-selections .buttons div.qv-subtoolbar-button:focus {
+    color: #868686;
+}
+.nigtmode .bright.qv-panel-current-selections .buttons-end button.qv-subtoolbar-button:hover:enabled, .nightmode .bright.qv-panel-current-selections .buttons-end div.qv-subtoolbar-button:hover, .nightmode .bright.qv-panel-current-selections .buttons button.qv-subtoolbar-button:hover:enabled, .nightmode .bright.qv-panel-current-selections .buttons div.qv-subtoolbar-button:hover {
+    color: #868686;
+}
+
+/* .nightmode .bright.qv-panel-current-selections .buttons-end .qv-subtoolbar-button.active, .nightmode .bright.qv-panel-current-selections .buttons-end .qv-subtoolbar-button.active:hover, .nightmode .bright.qv-panel-current-selections .buttons .qv-subtoolbar-button.active, .nightmode .bright.qv-panel-current-selections .buttons .qv-subtoolbar-button.active:hover {
+    background: #3c3c3c;
+} */
+
+.nightmode .lui-tab.lui-active, .nightmode .lui-tab.lui-focused, .nightmode .lui-tab:focus {
+    background-color: #2d2d2d
+}
+
+.nightmode .lui-tab.lui-active .lui-tab__text, .nightmode .lui-tab.lui-focused .lui-tab__text, .nightmode .lui-tab:focus .lui-tab__text,
+.nightmode .lui-tab.lui-active .lui-icon, .nightmode .lui-tab.lui-active .lui-tab__aside.lui-icon {
+    color: #cacaca;
+}
+
+.nightmode .bright.qv-panel-current-selections .buttons .qv-subtoolbar-button.active, .nightmode .bright.qv-panel-current-selections .buttons .qv-subtoolbar-button.active:hover {
+    background: #222222;
+    color: #e4e4e4;
+}
+
+.nightmode .qs-toolbar .qs-toolbar__menu {
+    background: #222222;
+}
+
+.nightmode .qv-global-search-result .content-flex {
+    border-bottom: 1px solid #2c2c2c;
+}
+
+
+
+
+
+
+
+
+
+/* background color in small screens */
+@media screen and (max-height: 480px),
+screen and (max-width: 640px) {
+    .nightmode .sheet-list #grid .cell-content .qv-object {
+        background: #212121;
+    }
+
+    .nightmode .sheet-list #grid {
+        background-color: #171717 !important;
+    }
+
+    .nightmode .qv-global-search-result .content-flex {
+        border-bottom: 1px solid #2c2c2c;
+    }
+
+}
+
+
+
+/* //load script screen  */
+.nightmode .codearea-tabs {
+    background: #1f1f1f;
+}
+
+.nightmode .codearea-tabs .vtabs .tab-list .included-tab-list .included-tab-row.selected, .codearea-tabs .vtabs .tab-list .selected {
+    background-color: #313131 !important;
+    color: #fff !important;
+}
+
+.nightmode .codearea-tabs .vtabs .tab-list .tabrow .vtabs-title input {
+    color: #fff;
+}
+
+.nightmode .scripteditor-main .bottom-pane {
+    background-color: #2e2e2e;
+    border-top: 1px solid #4c4c4c;
+}
+
+.nightmode  .bottom-pane .section-buttons .lui-button {
+    color: #cacaca;
+    border: 1px solid #403f3f;
+}
+
+.nightmode .scripteditor-main.no-toolbar .scripteditor-right {
+    background-color: #1f1f1f;
+}
+
+.nightmode .scripteditor-main .scripteditor-right .accordion {
+    border-left: 1px solid #4c4c4c;
+}
+
+.nightmode .accordion-dataconnectors .connection-controls-container .add-connection {
+    color: #cacaca;
+    border: 1px solid #403f3f;
+}
+
+.nightmode .scripteditor-stage .qui-toolbar {
+    background-color: #252525;
+    box-shadow: none;
+}
+
+.nightmode .scripteditor-stage .scripteditor-divider {
+    background-color: #252525;
+}
+
+.nightmode .codearea-container .CodeMirror-gutters {
+    background-color: #2a2a2a;
+    border-right: 1px solid #4c4c4c;
+}
+
+.nightmode .qv-codearea .CodeMirror-lines, .nightmode .qv-codearea .CodeMirror {
+    background-color: #262626;
+}
+
+.nightmode .qv-codearea-help-mode .CodeMirror-lines {
+    background: #383838;
+}
+
+.nightmode .codearea-container .CodeMirror-lines .cm-normalText {
+    color: #fff;
+}
+
+.nightmode.qv-client .qv-codearea .cm-s-default span.cm-number, .nightmode.qv-client .qv-codearea .cm-s-default span.cm-operator, .nightmode .qv-datamodelviewer .qv-codearea .cm-s-default span.cm-number, .nightmode .qv-datamodelviewer .qv-codearea .cm-s-default span.cm-operator {
+    color: #fff !important;
+}
+
+/* botoes barra de cima  */
+/* .nightmode .scripteditor-stage .lui-fade-button {
+    color: #8e8e8e;
+} */
+
+.nightmode .lui-fade-button {
+    color: #5f5f5f;
+}
+
+.nightmode .lui-fade-button.lui-focused, .nightmode .lui-fade-button.lui-hovered, .nightmode .lui-fade-button:active, .nightmode .lui-fade-button:focus, .nightmode .lui-fade-button:hover {
+    color: #949393;
+}
+
+.nightmode #scripteditor-editorToolbarContainer .qui-toolbar .lui-fade-button:active:not([disabled]):not(.qui-disabled) {
+    background-color: #585353;
+}
+
+.nightmode .lui-fade-button.lui-disabled, .nightmode .lui-fade-button[disabled] {
+    color: rgba(130, 130, 130, 0.2);
+}
+
+.nightmode #scripteditor-editorToolbarContainer .qui-toolbar .qui-buttonset-left button:after {
+    border-right: 1px solid #5f5f5f;
+}
+
+
+.nightmode .cm-posterror {
+    text-shadow: none;
+    color: #a73232;
+}
+
+.nightmode .codearea-search-view {
+    background-color: #252525;
+    border-bottom: 1px solid #4c4c4c;
+}
+
+ .nightmode .CodeMirror-vscrollbar::-webkit-scrollbar-thumb, .nightmode .CodeMirror-hscrollbar::-webkit-scrollbar-thumb {
+    background: #464646;
+}
+
+.nightmode .CodeMirror-scrollbar-filler {
+    background: transparent;
+}
+
+.nightmode .scripteditor-main.no-toolbar .scripteditor-stage {
+    background: #262626;
+}
+
+
+/* create connection screen  */
+.nightmode .script-create-connection {
+    background-color: #161616;
+}
+
+.nightmode .script-create-connection .lui-dialog__footer, .nightmode .script-create-connection .lui-dialog__header {
+    background-color: #cacaca;
+}
+
+.nightmode .script-create-connection .lui-list__header {
+    background-color: rgb(35, 34, 34);
+}
+
+.nightmode .script-create-connection .lui-list__item {
+    border-bottom: 1px solid #cacaca26;
+}
+
+.nightmode .script-create-connection .content-container {
+    border: 1px solid #cacaca26;
+}
+
+.nightmode .script-create-connection .lui-list__item.lui-hover, .script-create-connection .lui-list__item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.nightmode .connsdk-odbc-connect-dialog-host__dialog__body {
+    background: #161616;
+}
+.nightmode .connsdk-odbc-connect-dialog-host__dialog__body .lui-label {
+    color: #cacaca;
+}
+.nightmode .connsdk-odbc-connect-dialog-host__dialog__body .connsdk-odbc-property-group__header__label {
+    color: #cacaca;
+}
+
+
+/* cursor  */
+.nightmode .CodeMirror-cursor {
+    border-left: 1px solid #cacaca;
+}
+
+.nightmode.qv-client .qv-codearea .cm-s-default span.cm-operator.CodeMirror-matchingbracket, .nightmode .qv-datamodelviewer .qv-codearea .cm-s-default span.cm-operator.CodeMirror-matchingbracket {
+    color: #ffce26 !important;
+}
+
+/* fix footer with white text  */
+.nightmode .qv-object .qv-footer-wrapper {
+    background-color: black!important;
+}
+
+.nightmode .qv-object .qv-footer-wrapper {
+    background-color: inherit;
+    background-color: #222!important;
+}
+
+.qv-inner-object {
+     border: 1px solid #dacdcd;
+     padding:5px;
+     border-radius:5px;
+}
+
+.qv-collapsed-listbox {
+    border:0;
+}
+
+
+
+
+.adv-kpi-name.ng-binding {
+    color:#ef960f !important;
+}
+
+.adv-kpi-measure.ng-binding {
+    color:#ef960f !important;
+}
+
+hr.style-one {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #CDDC39, rgba(0, 0, 0, 0));
+    z-index: 3;
+}
+.kpi-title.ellips-text.ng-binding {
+    color:#cccccc
+}
+.kpi-value {
+    color:#ef960f !important;
+}
+
+.qs-container  .qv-inner-object {
+    border:none;
+}
+.qs-container .qsc-item-wrapper, .qs-container .qsc-tab-row {
+
+ border: none;
+}
+
+.qv-object-action-button  .qv-inner-object {
+    border:none;
+}
+.qv-filterpane-column  .qv-inner-object {
+    border:none;
+}
+
+
+
+
+
+/**/
+
+header.qv-object-header.ng-hide  {
+    display:initial !important;
+}
+/**/
+
+
+
+
+
+/**/
+
+a.ng-scope.ng-isolate-scope.lui-icon.lui-icon--expand.white.border.ng-hide {
+    display: initial !important;
+	background-color:#212121 !important;
+   
+
+}
+.qv-object-nav.zero-top>a.lui-icon.lui-icon--expand {
+    border:none; 
+}
+
+/**/
+
+

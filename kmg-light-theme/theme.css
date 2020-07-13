@@ -1,0 +1,41 @@
+
+.qv-inner-object {
+     border: 1px solid #dacdcd;
+     padding:5px;
+     border-radius:5px;
+}
+.qv-collapsed-listbox {
+    border:none;
+}
+.qs-container  .qv-inner-object {
+    border:none;
+}
+.qs-container .qsc-item-wrapper, .qs-container .qsc-tab-row {
+
+ border: none;
+}
+
+.qv-object-action-button  .qv-inner-object {
+    border:none;
+}
+.qv-filterpane-column  .qv-inner-object {
+    border:none;
+}
+
+/***/
+header.qv-object-header.ng-hide {
+    display:initial !important;
+}
+/***/
+
+/**/
+a.ng-scope.ng-isolate-scope.lui-icon.lui-icon--expand.white.border.ng-hide {
+    display: initial !important;
+   
+
+}
+.qv-object-nav.zero-top>a.lui-icon.lui-icon--expand {
+    border:none; 
+}
+/**/
+
